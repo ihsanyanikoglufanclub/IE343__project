@@ -6,9 +6,11 @@ import java.util.Arrays;
 import java.util.List;
 
 public class Main {
+
         public static void main(String[] args) throws IOException{
                 List<List<String>> list = readValues();
                 System.out.println(list.get(0));
+
 		List<Integer> valueList = new ArrayList<Integer>();
 		
 		List<Integer> weightList = new ArrayList<Integer>();
