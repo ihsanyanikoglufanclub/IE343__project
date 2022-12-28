@@ -10,6 +10,7 @@ public class Main {
                 List<List<String>> list = readValues();
                 System.out.println(list.get(0));
 		List<Integer> valueList = new ArrayList<Integer>();
+		
 		List<Integer> weightList = new ArrayList<Integer>();
 		for(int i=1;i<list.size();i++) {
 			valueList.add(Integer.parseInt(list.get(i).get(4))); 
