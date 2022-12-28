@@ -44,6 +44,7 @@ public class Main {
 			String line = br.readLine();
 			while(line != null)
 			{
+				
 				List<String> lineData = Arrays.asList(line.split(","));//splitting lines
 				data.add(lineData);
 				line = br.readLine();
