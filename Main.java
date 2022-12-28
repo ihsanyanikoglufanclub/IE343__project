@@ -40,6 +40,7 @@ public class Main {
 			
 			
 			//Reading until we run out of lines
+			
 			String line = br.readLine();
 			while(line != null)
 			{
